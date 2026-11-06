@@ -1,0 +1,1309 @@
+36
+172
+21:25:36.236
+System
+Build
+ Render Start 
+21:25:36.445
+Backend
+Log
+ Server restarting... 
+21:25:36.446
+Backend
+Log
+ Server stopped. 
+21:25:36.446
+Backend
+Log
+ Server started on port 3000. 
+21:25:36.446
+Backend
+Log
+ Pre-warming 1 paths...
+  
+  > react-example@0.0.0 dev
+  > tsx server.ts --port 3000 --host 0.0.0.0
+  
+  (node:543) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+  (Use `node --trace-warnings ...` to show where the warning was created)
+  (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+    - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+  Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+  Portfolio Server running at http://0.0.0.0:3000 
+21:25:36.446
+Backend
+Log
+ Pre-warming completed.
+  9:24:59 PM [vite] (client) dependency optimized: lucide-react
+  9:24:59 PM [vite] (client) optimized dependencies changed. reloading
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  } 
+21:25:36.511
+Backend
+Log
+ Server restarting... 
+21:25:36.511
+Backend
+Log
+ Server stopped. 
+21:25:36.511
+Backend
+Log
+ Server started on port 3000. 
+21:25:36.511
+Backend
+Log
+ Pre-warming 1 paths...
+  
+  > react-example@0.0.0 dev
+  > tsx server.ts --port 3000 --host 0.0.0.0
+  
+  (node:543) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+  (Use `node --trace-warnings ...` to show where the warning was created)
+  (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+    - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+  Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+  Portfolio Server running at http://0.0.0.0:3000 
+21:25:36.511
+Backend
+Log
+ Pre-warming completed.
+  9:24:59 PM [vite] (client) dependency optimized: lucide-react
+  9:24:59 PM [vite] (client) optimized dependencies changed. reloading
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  } 
+21:25:36.583
+Backend
+Log
+ CONNECTED 
+21:25:36.851
+Backend
+Log
+ Server restarting... 
+21:25:36.851
+Backend
+Log
+ Server stopped. 
+21:25:36.851
+Backend
+Log
+ Server started on port 3000. 
+21:25:36.851
+Backend
+Log
+ Pre-warming 1 paths...
+  
+  > react-example@0.0.0 dev
+  > tsx server.ts --port 3000 --host 0.0.0.0
+  
+  (node:543) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+  (Use `node --trace-warnings ...` to show where the warning was created)
+  (!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+    - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+  Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.
+  Portfolio Server running at http://0.0.0.0:3000 
+21:25:36.851
+Backend
+Log
+ Pre-warming completed.
+  9:24:59 PM [vite] (client) dependency optimized: lucide-react
+  9:24:59 PM [vite] (client) optimized dependencies changed. reloading
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  }
+  Error fetching portfolio data: Error: no such column: ai_welcome_message
+      at <anonymous> (/app/applet/server.ts:51:25)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at next (/app/applet/node_modules/express/lib/router/route.js:149:13)
+      at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5)
+      at /app/applet/node_modules/express/lib/router/index.js:284:15
+      at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12)
+      at next (/app/applet/node_modules/express/lib/router/index.js:280:10)
+      at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7)
+      at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) {
+    code: 'ERR_SQLITE_ERROR',
+    errcode: 1,
+    errstr: 'SQL logic error'
+  } 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.783
+System
+Build
+ Render End 
+21:25:37.818
+App
+Debug
+ [vite] connecting... 
+21:25:37.967
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:38.075
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:38.128
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:38.128
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:38.128
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:38.128
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:38.128
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:38.128
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:38.128
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:38.128
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:38.128
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:38.128
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:52.671
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:52.736
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:52.736
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:52.736
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:52.736
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:52.736
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:52.736
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:52.736
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:52.736
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:52.736
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:52.789
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:52.789
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:53.937
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:53.991
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:53.991
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:53.992
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:53.992
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:53.992
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:53.992
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:53.992
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:53.992
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:53.992
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:53.992
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:53.992
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:53.992
+Backend
+Error
+ code: 'ERR_SQLITE_ERROR', 
+21:25:53.992
+Backend
+Log
+ errcode: 1, 
+21:25:53.992
+Backend
+Error
+ errstr: 'SQL logic error' 
+21:25:53.992
+Backend
+Log
+ } 
+21:25:54.923
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:54.986
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:54.986
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:54.986
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:54.986
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:54.986
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:54.986
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:54.986
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:54.986
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:54.986
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:54.986
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:54.986
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:54.986
+Backend
+Error
+ errstr: 'SQL logic error' 
+21:25:54.986
+Backend
+Log
+ } 
+21:25:55.898
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:56.000
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:56.000
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:56.001
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:56.001
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:56.001
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:56.001
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:56.001
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:56.001
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:56.001
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:56.001
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:56.001
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:56.869
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:56.930
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:56.930
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:56.930
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:56.930
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:56.930
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:56.930
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:56.930
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:56.930
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:56.930
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:56.930
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:56.930
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:57.888
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:57.889
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:57.889
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:57.889
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:57.889
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:57.889
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:57.889
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:57.889
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:57.889
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:57.889
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:57.889
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:57.960
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:58.823
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:58.849
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:58.849
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:58.849
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:58.849
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:58.849
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:58.849
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:58.849
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:58.849
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:58.849
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:58.849
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:58.850
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:25:59.736
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:25:59.806
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:25:59.807
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:25:59.807
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:59.807
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:25:59.807
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:25:59.807
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:25:59.807
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:25:59.807
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:25:59.807
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:25:59.807
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:25:59.807
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:26:00.782
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:26:00.889
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:26:00.889
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:26:00.890
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:00.890
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:26:00.890
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:26:00.890
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:00.890
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:26:00.890
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:26:00.890
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:26:00.890
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:26:00.890
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:26:02.191
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:26:02.191
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:26:02.191
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:02.191
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:26:02.191
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:26:02.191
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:02.191
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:26:02.191
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:26:02.191
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:26:02.191
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:26:02.191
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:26:02.256
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:26:27.178
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:26:27.263
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:26:27.263
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:26:27.263
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:27.263
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:26:27.263
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:26:27.263
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:27.263
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:26:27.263
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:26:27.263
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:26:27.263
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:26:27.263
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:26:33.425
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:26:33.513
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:26:33.514
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:26:33.514
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:33.514
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:26:33.514
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:26:33.514
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:33.514
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:26:33.514
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:26:33.514
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:26:33.514
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:26:33.514
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:26:33.514
+Backend
+Log
+ errcode: 1, 
+21:26:33.514
+Backend
+Error
+ errstr: 'SQL logic error' 
+21:26:33.514
+Backend
+Log
+ } 
+21:26:40.187
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:26:40.383
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:26:40.383
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:26:40.384
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:40.384
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:26:40.384
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:26:40.384
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:40.384
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:26:40.384
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:26:40.384
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:26:40.384
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:26:40.384
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:26:47.868
+App
+Error
+ Data load error:
+  Error: Failed to load portfolio database
+    at loadPortfolioData (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/src/App.tsx:34:23) 
+21:26:48.069
+Backend
+Error
+ Error fetching portfolio data: Error: no such column: ai_welcome_message 
+21:26:48.070
+Backend
+Log
+ at <anonymous> (/app/applet/server.ts:51:25) 
+21:26:48.070
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:48.070
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/route.js:149:13) 
+21:26:48.070
+Backend
+Log
+ at Route.dispatch (/app/applet/node_modules/express/lib/router/route.js:119:3) 
+21:26:48.070
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) 
+21:26:48.070
+Backend
+Log
+ at /app/applet/node_modules/express/lib/router/index.js:284:15 
+21:26:48.070
+Backend
+Log
+ at Function.process_params (/app/applet/node_modules/express/lib/router/index.js:346:12) 
+21:26:48.070
+Backend
+Log
+ at next (/app/applet/node_modules/express/lib/router/index.js:280:10) 
+21:26:48.070
+Backend
+Log
+ at urlencodedParser (/app/applet/node_modules/body-parser/lib/types/urlencoded.js:95:7) 
+21:26:48.070
+Backend
+Log
+ at Layer.handle [as handle_request] (/app/applet/node_modules/express/lib/router/layer.js:95:5) { 
+21:27:01.963
+App
+Error
+ [vite] failed to connect to websocket (Error: WebSocket closed without opened.).  
+21:27:02.142
+App
+Unhandled Rejection
+ Error: WebSocket closed without opened.
+    at WebSocket.<anonymous> (https://ais-dev-m6fge36c6gqaj7lcht7ujm-311372412690.europe-west1.run.app/@vite/client:236:30) 
