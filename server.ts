@@ -10,7 +10,30 @@ import { handleAssistantChat } from './server/aiAssistant.ts';
 initDatabase();
 
 const app = express();
-const PORT = process.env.PORT ? parseInt(process.env.PORT, 10) : 3000;
+
+function getPort(): number {
+  const pArg = process.argv.findIndex((arg) => arg === '--port' || arg === '-p');
+  if (pArg !== -1 && process.argv[pArg + 1]) {
+    const parsed = parseInt(process.argv[pArg + 1], 10);
+    if (!isNaN(parsed)) return parsed;
+  }
+  if (process.env.PORT && process.env.PORT !== '8080') {
+    const parsed = parseInt(process.env.PORT, 10);
+    if (!isNaN(parsed)) return parsed;
+  }
+  return 3000;
+}
+
+function getHost(): string {
+  const hArg = process.argv.findIndex((arg) => arg === '--host' || arg === '-h');
+  if (hArg !== -1 && process.argv[hArg + 1]) {
+    return process.argv[hArg + 1];
+  }
+  return '0.0.0.0';
+}
+
+const PORT = getPort();
+const HOST = getHost();
 const isProduction = process.env.NODE_ENV === 'production';
 
 // Ensure uploads directory exists
@@ -1458,7 +1481,10 @@ app.put('/api/admin/settings', requireAdminAuth, (req: Request, res: Response) =
 async function startServer() {
   if (!isProduction) {
     const vite = await createViteServer({
-      server: { middlewareMode: true },
+      server: {
+        middlewareMode: true,
+        hmr: process.env.DISABLE_HMR === 'true' ? false : undefined,
+      },
       appType: 'spa',
     });
     app.use(vite.middlewares);
@@ -1472,8 +1498,8 @@ async function startServer() {
     }
   }
 
-  app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Portfolio Server running at http://0.0.0.0:${PORT}`);
+  app.listen(PORT, HOST, () => {
+    console.log(`Portfolio Server running at http://${HOST}:${PORT}`);
   });
 }
 
